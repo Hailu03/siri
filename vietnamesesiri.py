@@ -29,23 +29,15 @@ while True:
             print(you)
 
         if you == "":
-            robot_brain = "Ngân ơi trên đời này mà có ai đẹp bằng Ngân đi nữa thì người đó cũng không xứng làm người yêu Hải"
+            robot_brain = "Bạn có thể nói lại không tôi chưa nghe rõ"
             print("Robot:" + robot_brain)
             speak(robot_brain)
         elif "quá" in you:
-            robot_brain = "Chào Ngân"
+            robot_brain = "Chào bạn"
             print("Robot:" + robot_brain)
             speak(robot_brain)
-        elif "đẹp"in you:
-            robot_brain = "Ngân là một cô gái cực kỳ xinh đẹp và dễ thương thật mừng cho cô ấy khi cô ấy đã có một người yêu cũng tốt tính y chang cô ấy"
-            print("Robot:" + robot_brain)
-            speak(robot_brain)
-        elif "thi" in you:
-            robot_brain = "Ngân sắp phải thi giữa kỳ rồi cô ấy ôn tập rất chăm chỉ vì vậy tôi hy vọng cô ấy có thể đạt được điểm cao cố lên ngân"
-            print("Robot:" + robot_brain)
-            speak(robot_brain)
-        elif "yêu" in you:
-            robot_brain = "Ngân biết hông Hải yêu ngân nhất thế gian này luôn"
+        elif "khỏe"in you:
+            robot_brain = "Tôi dạo này còn khỏe lắm"
             print("Robot:" + robot_brain)
             speak(robot_brain)
         elif "ngày" in you:
@@ -64,7 +56,7 @@ while True:
             print("Robot: " + robot_brain)
             speak(robot_brain)
         elif "biệt" in you:
-            robot_brain = "Tạm biệt Ngân"
+            robot_brain = "Tạm biệt bạn"
             print("Robot: " + robot_brain)
             speak(robot_brain)
             
